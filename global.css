@@ -98,3 +98,15 @@ header {
   width: 260px;
   height: 57px;
 }
+
+#button_lines {
+  display: block;
+  position: absolute;
+  overflow: auto;
+  width: 470px;
+  left: 50%;
+  right: 50%;
+  margin-right: -235px;
+  margin-left: -235px;
+  margin-top: 100px;
+}
