@@ -13,6 +13,8 @@ header {
   background-color: #2C4947;
 }
 
+/*'Rokkitt', serif;*/
+
 #header {
   width: 200px;
   margin-left: 5px;
@@ -122,4 +124,22 @@ header {
   margin-right: auto;
   top: 95px;
   width: 50px;
+}
+
+#register_bird {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 95px;
+  background-color: #6BA235;
+  font-size: 12pt;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  border: 0px solid;
+  z-index: 1;
 }
