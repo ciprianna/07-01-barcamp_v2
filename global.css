@@ -69,3 +69,13 @@ header {
   display: block;
   top: 40px;
 }
+
+#date {
+  position: relative;
+  z-index: 3;
+  width: 150px;
+  top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
