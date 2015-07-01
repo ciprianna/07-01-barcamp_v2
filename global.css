@@ -13,7 +13,24 @@ header {
   background-color: #2C4947;
 }
 
-/*'Rokkitt', serif;*/
+h1 {
+  font-family: 'Rokkitt', serif;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: darkslategray;
+  font-size: 28pt;
+}
+
+p {
+  font-family: 'Rokkitt', serif;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: gray;
+  font-size: 16pt;
+}
 
 #header {
   width: 200px;
@@ -142,4 +159,20 @@ header {
   border-radius: 25px;
   border: 0px solid;
   z-index: 1;
+  font-weight: bold;
+}
+
+.green_header {
+  font-family: 'Rokkitt', serif;
+  color: #6BA235;
+  font-size: 52pt;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
+
+.green_header::first-letter {
+  font-size: 50%;
+  vertical-align: super;
 }
