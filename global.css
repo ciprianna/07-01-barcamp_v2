@@ -26,11 +26,23 @@ header {
 
 #trees {
   position: absolute;
-  width: 1200px;
-  margin-left: -600px;
-  margin-right: -600px;
+  width: 900px;
+  margin-left: -450px;
+  margin-right: -450px;
   display: block;
   left: 50%;
   right: 50%;
   overflow: auto;
+  z-index: 1;
+}
+
+#lake {
+  width: 900px;
+  position: absolute;
+  margin-right: -450px;
+  margin-left: -450px;
+  right: 50%;
+  left: 50%;
+  overflow: auto;
+  display: block;
 }
