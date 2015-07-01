@@ -23,3 +23,14 @@ header {
   top: 5px;
   right: 0;
 }
+
+#trees {
+  position: absolute;
+  width: 1200px;
+  margin-left: -600px;
+  margin-right: -600px;
+  display: block;
+  left: 50%;
+  right: 50%;
+  overflow: auto;
+}
