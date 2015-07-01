@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #2C4947;
+}
+
+#header {
+  width: 200px;
+}
