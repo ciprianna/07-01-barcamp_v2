@@ -15,4 +15,11 @@ header {
 
 #header {
   width: 200px;
+  margin-left: 5px;
+}
+
+#menu {
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
