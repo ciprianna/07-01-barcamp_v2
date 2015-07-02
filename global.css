@@ -30,6 +30,29 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Rokkitt', serif;
+  color: white;
+  text-align: center;
+  margin: 15px;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 7px;
+  line-height: 1.75;
+}
+
 p {
   font-family: 'Rokkitt', serif;
   margin-right: 25px;
@@ -44,6 +67,17 @@ hr {
   margin-top: 100px;
   margin-bottom: 40px;
   opacity: 0.5;
+}
+
+ul {
+  list-style-image: url("./assets/part_4/plus.png");
+  color: #603812;
+  font-family: 'Rokkitt', serif;
+  font-size: 16pt;
+  display: inline-block;
+  padding-left: 50px;
+  margin-right: 20px;
+  line-height: 2.5;
 }
 
 #header {
@@ -184,6 +218,66 @@ hr {
   height: 5px;
 }
 
+#wood_grain {
+  background-image: url("./assets/part_3/board.jpg");
+}
+
+#event {
+  width: 300px;
+  margin-top: 75px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 75px;
+}
+
+#fire_img {
+  display: block;
+  right: 50%;
+  left: 50%;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#last_event {
+  padding-bottom: 100px;
+}
+
+#light_blue {
+  background: #CAECF8;
+}
+
+#faq {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#treehouse {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+#sunset {
+  width: 900px;
+  margin-left: -450px;
+  margin-right: -450px;
+  display: block;
+  left: 50%;
+  right: 50%;
+  overflow: auto;
+  position: relative;
+}
+
 .green_header {
   font-family: 'Rokkitt', serif;
   color: #6BA235;
@@ -219,4 +313,37 @@ hr {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 10px;
   font-size: 12pt;
+}
+
+.yellow {
+  color: goldenrod;
+  font-size: 36pt;
+  text-align: center;
+  margin-bottom: 5pt;
+}
+
+.circle:first-line {
+  font-size: 30pt;
+}
+
+.circle {
+  line-height: 1.2;
+  border: solid tomato;
+  border-radius: 50%;
+  width: 80px;
+  margin-left: auto;
+  padding: 3pt;
+  margin-right: auto;
+}
+
+.circle_div {
+  height: 95px;
+  margin-top: 60px;
+}
+
+.events {
+  color: white;
+  font-weight: normal;
+  font-size: 16pt;
+  margin-bottom: 5px;
 }
