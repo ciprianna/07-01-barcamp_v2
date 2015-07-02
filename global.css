@@ -69,17 +69,6 @@ hr {
   opacity: 0.5;
 }
 
-ul {
-  list-style-image: url("./assets/part_4/plus.png");
-  color: #603812;
-  font-family: 'Rokkitt', serif;
-  font-size: 16pt;
-  display: inline-block;
-  padding-left: 50px;
-  margin-right: 20px;
-  line-height: 2.5;
-}
-
 #header {
   width: 200px;
   margin-left: 5px;
@@ -278,6 +267,16 @@ ul {
   position: relative;
 }
 
+#faq_list {
+  list-style-type: none;
+  color: #603812;
+  font-family: 'Rokkitt', serif;
+  font-size: 16pt;
+  display: inline-block;
+  padding-left: 0px;
+  line-height: 2.5;
+}
+
 .green_header {
   font-family: 'Rokkitt', serif;
   color: #6BA235;
@@ -346,4 +345,17 @@ ul {
   font-weight: normal;
   font-size: 16pt;
   margin-bottom: 5px;
+}
+
+.bullet_lists {
+  background: url("./assets/part_4/plus.png") no-repeat left 3px;
+  list-style-type: none;
+  color: #603812;
+  font-family: 'Rokkitt', serif;
+  font-size: 16pt;
+  display: inline-block;
+  padding-left: 55px;
+  margin-right: 20px;
+  line-height: 2.5;
+  margin-left: 10px;
 }
