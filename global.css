@@ -304,6 +304,20 @@ hr {
   margin-right: auto;
 }
 
+#register_link_div {
+  position: relative;
+}
+
+#register_link {
+  height: 78px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  bottom: 240px;
+  left: 100px;
+  cursor: pointer;
+}
+
 .green_header {
   font-family: 'Rokkitt', serif;
   color: #6BA235;
