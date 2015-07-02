@@ -400,3 +400,61 @@ hr {
   line-height: 2.5;
   margin-left: 10px;
 }
+
+@media (min-width: 500px) {
+  #entrepreneur {
+    float: left;
+    width: 50%;
+  }
+
+  #creative {
+    float: left;
+    width: 50%;
+    border-left: solid lightgray 1px;
+  }
+
+  #technology {
+    float: left;
+    width: 50%;
+  }
+
+  #kitchen_sink {
+    float: left;
+    width: 50%;
+    border-left: solid lightgray 1px;
+  }
+
+  #first_two_speaking_topics {
+    border-bottom: solid lightgray 1px;
+  }
+
+  hr {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  #first_two_speaking_topics {
+    float: left;
+    width: 50%;
+    border-bottom: none;
+  }
+
+  #second_two_topics {
+    float: left;
+    width: 50%;
+  }
+
+  #creative {
+    border-right: solid lightgray 1px;
+  }
+
+  #kitchen_sink {
+    border-left: none;
+  }
+
+  #technology {
+    border-right: solid lightgray 1px;
+  }
+
+}
