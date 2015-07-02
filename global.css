@@ -279,6 +279,7 @@ hr {
 
 #register_end {
   position: relative;
+  height: 850px;
 }
 
 #hills {
@@ -289,8 +290,18 @@ hr {
   left: 50%;
   margin-left: -450px;
   margin-right: -450px;
-  bottom: -75px;
+  top: 560px;
   z-index: 1;
+}
+
+#signpost {
+  display: block;
+  width: 200px;
+  z-index: 2;
+  position: relative;
+  bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .green_header {
